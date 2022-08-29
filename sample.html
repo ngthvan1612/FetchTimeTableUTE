@@ -1,0 +1,1043 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <link rel="icon" href="/Content/Images/favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-eqyuiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="/Content/css/style_main.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+    <!--   Jquery ui -->
+    <script src="/Content/ui/jquery.easyui.min.js"></script>
+    <link href="/Content/ui/themes/default/easyui.css" rel="stylesheet" />
+    <!--  end Jquery ui -->
+    <script type="text/javascript" src="/Scripts/functionapp.js">   </script>
+    <!--  --->
+    <link href="/Content/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/inside.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        //if (window.location.protocol == "http:" && window.location.host != "localhost:25424")
+        //{
+        //var restOfUrl = window.location.href.substr(5);
+        //window.location = "https:" + restOfUrl;
+        //}
+</script>
+</head>
+<body>
+    <!--Page-->
+    <div class="page">
+        <form name="frmform" method="post">
+            <!--Panel top-->
+            <div class="paneltop">
+                <!--Phan to-->
+                <!--Phan banner-->
+                <div class="banner">
+                    <img src="/Content/images/banner_UTE.png" />
+                </div>
+                <!--Phan menu2-->
+                <div class="blog_menu2">
+                    <div class="img1_menu2">
+                        <img src="/Content/images/img1_menu2.jpg" />
+                    </div>
+                    <ul class="menu2">
+
+                    </ul>
+                    <div class="img2_menu2">
+                        <img src="/Content/images/img2_menu2.jpg" />
+                    </div>
+                </div>
+                <!--Phan menu3-->
+                
+
+
+                <!--Phan quang cao va menu-->
+            </div>
+            <!--End Panel top-->
+            <!--container-->
+            <div class="container">
+                <!--Panel lef-->
+                <div class="info_container">
+                    <div class="panelleft1">
+                        <div class="blog_menu4_HP">
+                        </div>
+                        <!--Phan PanelBarmenu1-->
+                        <div class="PanelBarMenu">
+                            <ul class="menubar">
+                                <li class="bg_frist_mn"><a href="javascript:void()">Chức Năng</a></li>
+                                    <li class="bg_mn"><a href="/Home/TrangChu" target="_parent" >Trang chủ</a></li>
+                                    <li class="bg_mn"><a href="/Login" target="_parent" >Trang đăng ký học ph&#226;̀n</a></li>
+                                    <li class="bg_mn"><a href="/QuiDinh/Index" target="_newtab" >Qui định</a></li>
+                                    <li class="bg_mn"><a href="/TraCuuHocPhan/MonTuongDuong" target="_blank" >M&#244;n tương đương</a></li>
+                                    <li class="bg_mn"><a href="/TraCuuHocPhan/Index" target="_newtab" >Tra cứu học ph&#226;̀n</a></li>
+                                    <li class="bg_mn"><a href="/ChuongTrinhDaoTao/Index" target="_newtab" >Chương trình đào tạo</a></li>
+                                    <li class="bg_mn"><a href="https://docs.google.com/file/d/0B-zKTcrEKLodSkV4elhtNkJwVFk/edit" target="_newtab" >Hướng d&#226;̃n đăng k&#253;</a></li>
+                                    <li class="bg_mn"><a href="/KetQuaHocTap/Index" target="_newtab" >K&#234;́t quả học t&#226;p</a></li>
+                                    <li class="bg_mn"><a href="/ThoiKhoaBieu/Index" target="_newtab" >Thời khóa bi&#234;̉u</a></li>
+
+                            </ul>
+                        </div>
+                        <!--Phan PanelBarmenu2-->
+                    </div>
+                    <!--end Panel left-->
+
+
+                    <!--Panel content-->
+                    <div class="panelcontent1">
+                        <div class="wrapper_vb">
+                            <div class="blog_menu4_HP"></div>
+                            <div>
+                            <noscript><b style="color:red">Trình duyệt của bạn đang tắt javascript hoặc không hổ trợ javascript !
+                               <br />Vui lòng bật javascript cho trình duyệt của bạn trước (<a href="https://docs.google.com/file/d/0B-pUp8vuvCF-Mm01RTBOZ083VXM/edit?pli=1" target="_blank">Xem hướng dẫn</a>) khi đăng ký học phần</b>
+                           </noscript>
+                                
+
+<div id="TraCuuHocPhan">
+    <table border="0" width="100%" style="margin: auto">
+        <tr>
+            <td><b class="title">Tra cứu môn học</b></td>
+        </tr>
+       
+     
+        <tr>
+            <td align="center">
+                <b>Tìm theo : <select name="ddlMonHoc" style="width:100px">
+                    <option value="0" selected>Mã môn</option>
+                    <option value="1" >Tên môn</option>
+                    <option value="2" >Tên khoa</option>
+                </select> </b>
+                <input type="text" style="width:200px"  name="txtSearch" id="txtSearch" value="J" class="txttext" />
+                <input type="submit" title="Tìm môn học" name="btntim" class="button" id="btntim" value="Tìm kiếm" />
+
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><b style="color: red">Tìm được 66 trong 100 k&#234;́t quả đ&#226;̀u ti&#234;n</b></td>
+        </tr>
+        <tr>
+            <td>
+                
+        
+                     
+                            <table width="100%" border="1" cellpadding="10" style="border-collapse: collapse; font-size: 12px">
+                                <tr>
+                                   
+                                    <th>Mã môc học</th>
+                                    <th>Mã lớp học phần</th>
+                                    <th>Tên môn học</th>
+                                    <th>STC</th>
+                                    <th>Loại học phần</th>
+                                    <th width="190px">Thông tin</th>
+                                    <th>Giảng viên</th>
+                                    <th>Giới hạn</th>
+                                    <th>Ngày bắt đầu</th>
+                                    <th>Ngày kêt thúc</th>
+                                </tr>
+
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_01CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Đăng Quang</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_02CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Trần Thi Văn</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_03CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Văn Vinh</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_04CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Vĩnh Thịnh</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_05CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trần C&#244;ng T&#250;</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_06CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Minh Đạo</td>
+                                        <td>10-14</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_07CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trần Tiến Đức</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_08CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Thị Minh Ch&#226;u</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_09CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trần Nhật Quang</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_10CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Ho&#224;ng Văn Dũng</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_11CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Thi&#234;n Bảo</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_12CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Huỳnh Xu&#226;n Phụng</td>
+                                        <td>10-12</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_13CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Quang Ngọc</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_14CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Mai Anh Thơ</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_15CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Qu&#225;ch Đ&#236;nh Ho&#224;ng</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_16CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Huỳnh Nguy&#234;n Ch&#237;nh</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_17CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Thị Thanh V&#226;n</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879</td>
+                                        <td>PROJ215879_18CLC</td>
+                                        <td>Đồ &#225;n CNTT</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Từ Tuyết Hồng</td>
+                                        <td>10-10</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PRJP310655</td>
+                                        <td>PRJP310655_01</td>
+                                        <td>Đồ &#225;n C&#244;ng nghệ in</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Thế Trung</td>
+                                        <td>10-35</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PRJP310655</td>
+                                        <td>PRJP310655_02</td>
+                                        <td>Đồ &#225;n C&#244;ng nghệ in</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Thế Trung</td>
+                                        <td>10-35</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PRJP310655</td>
+                                        <td>PRJP310655_03CLC</td>
+                                        <td>Đồ &#225;n C&#244;ng nghệ in</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Thế Trung</td>
+                                        <td>10-32</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PRJP310655</td>
+                                        <td>PRJP310655_04CLC</td>
+                                        <td>Đồ &#225;n C&#244;ng nghệ in</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Thế Trung</td>
+                                        <td>10-32</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PRJP310655</td>
+                                        <td>PRJP310655_05CLC</td>
+                                        <td>Đồ &#225;n C&#244;ng nghệ in</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Thế Trung</td>
+                                        <td>10-32</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_01CLC</td>
+                                        <td>IT Project</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Đăng Quang</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_02CLC</td>
+                                        <td>IT Project</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Trần Thi Văn</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_03CLC</td>
+                                        <td>IT Project</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Văn Vinh</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_04CLC</td>
+                                        <td>IT Project</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Vĩnh Thịnh</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_05CLC</td>
+                                        <td>IT Project</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> L&#234; Thị Minh Ch&#226;u</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_06CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trần Nhật Quang</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_07CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Ho&#224;ng Văn Dũng</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_08CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Nguyễn Thi&#234;n Bảo</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_09CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Huỳnh Xu&#226;n Phụng</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_10CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Mai Anh Thơ</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ215879E</td>
+                                        <td>PROJ215879E_11CLC</td>
+                                        <td>IT Project - 20110CLA</td>
+                                        <td>1.00</td>
+                                        <td>Đồ &#225;n m&#244;n học</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Từ Tuyết Hồng</td>
+                                        <td>10-20</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA130147</td>
+                                        <td>JAPA130147_01DC</td>
+                                        <td>Nhật Ngữ 1</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td></td>
+                                        <td>10-100</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA230238</td>
+                                        <td>JAPA230238_01</td>
+                                        <td>Nhật Ngữ 2</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 8-10,tuần 1-15,A302</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-30</td>
+                                        <td>23/08/2022</td>
+                                        <td>29/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA230247</td>
+                                        <td>JAPA230247_01DC</td>
+                                        <td>Nhật Ngữ 2</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td></td>
+                                        <td>10-100</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA330338</td>
+                                        <td>JAPA330338_01</td>
+                                        <td>Nhật ngữ 3</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 5,tiết 1-3,tuần 1-15,A118</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-30</td>
+                                        <td>25/08/2022</td>
+                                        <td>01/12/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA330338</td>
+                                        <td>JAPA330338_02</td>
+                                        <td>Nhật ngữ 3</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 8-10,tuần 1-15,A301</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-30</td>
+                                        <td>22/08/2022</td>
+                                        <td>28/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA330338</td>
+                                        <td>JAPA330338_05</td>
+                                        <td>Nhật ngữ 3</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 4-6,tuần 1-15,A120</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-30</td>
+                                        <td>22/08/2022</td>
+                                        <td>28/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA330347</td>
+                                        <td>JAPA330347_01DC</td>
+                                        <td>Nhật ngữ 3</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td></td>
+                                        <td>10-100</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JAPA330447</td>
+                                        <td>JAPA330447_01DC</td>
+                                        <td>Nhật ngữ 4</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td></td>
+                                        <td>10-100</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>LJIT321126</td>
+                                        <td>LJIT321126_01</td>
+                                        <td>Quản trị sản xuất theo Lean v&#224; JIT</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 8-9,tuần 1-15,A316</div></td>
+                                        <td> Nguyễn Thị &#193;nh Tuyết</td>
+                                        <td>10-75</td>
+                                        <td>23/08/2022</td>
+                                        <td>29/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>LJIT321126</td>
+                                        <td>LJIT321126_02</td>
+                                        <td>Quản trị sản xuất theo Lean v&#224; JIT</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 8-9,tuần 1-15,A113</div></td>
+                                        <td> Nguyễn Văn Minh</td>
+                                        <td>10-75</td>
+                                        <td>22/08/2022</td>
+                                        <td>28/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JFSP520147</td>
+                                        <td>JFSP520147_01CLC</td>
+                                        <td>Tiếng Nhật chuy&#234;n ng&#224;nh</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 6,tiết 7-9,tuần 6-15,A3-304</div></td>
+                                        <td> L&#234; Ch&#237; Cương</td>
+                                        <td>10-36</td>
+                                        <td>30/09/2022</td>
+                                        <td>02/12/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JFSP520147</td>
+                                        <td>JFSP520147_02CLC</td>
+                                        <td>Tiếng Nhật chuy&#234;n ng&#224;nh</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 3-5,tuần 1-10,A3-304</div></td>
+                                        <td> L&#234; Ch&#237; Cương</td>
+                                        <td>10-36</td>
+                                        <td>22/08/2022</td>
+                                        <td>24/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JFSP520147</td>
+                                        <td>JFSP520147_03CLC</td>
+                                        <td>Tiếng Nhật chuy&#234;n ng&#224;nh</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 4,tiết 7-9,tuần 1-10,A3-401</div></td>
+                                        <td> L&#234; Ch&#237; Ki&#234;n</td>
+                                        <td>10-36</td>
+                                        <td>24/08/2022</td>
+                                        <td>26/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330547</td>
+                                        <td>VJEC330547_01CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.1 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 4-6,tuần 1-7,A3-401<br/>Thứ 4,tiết 1-3,tuần 1-7,A3-308<br/>Thứ 5,tiết 4-6,tuần 1-6,A3-308</div></td>
+                                        <td> Nguy&#234;̃n Thu Thủy</td>
+                                        <td>10-36</td>
+                                        <td>23/08/2022</td>
+                                        <td>05/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330547</td>
+                                        <td>VJEC330547_02CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.1 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 1-3,tuần 1-7,A3-401<br/>Thứ 5,tiết 1-3,tuần 1-7,A3-308<br/>Thứ 6,tiết 1-3,tuần 1-6,A3-308</div></td>
+                                        <td> Trần Thị Ngọc Th&#250;y</td>
+                                        <td>10-36</td>
+                                        <td>23/08/2022</td>
+                                        <td>06/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330547</td>
+                                        <td>VJEC330547_03CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.1 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 1-3,tuần 1-7,A3-302<br/>Thứ 5,tiết 7-9,tuần 1-7,A3-302<br/>Thứ 6,tiết 1-3,tuần 1-6,A3-302</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-36</td>
+                                        <td>23/08/2022</td>
+                                        <td>06/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330547</td>
+                                        <td>VJEC330547_04CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.1 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 4-6,tuần 1-7,A3-302<br/>Thứ 5,tiết 10-12,tuần 1-7,A3-302<br/>Thứ 6,tiết 4-6,tuần 1-6,A3-302</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-36</td>
+                                        <td>23/08/2022</td>
+                                        <td>06/10/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330647</td>
+                                        <td>VJEC330647_01CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 4-6,tuần 9-15,A3-401<br/>Thứ 4,tiết 1-3,tuần 9-15,A3-308<br/>Thứ 5,tiết 4-6,tuần 9-14,A3-308</div></td>
+                                        <td> Nguy&#234;̃n Thu Thủy</td>
+                                        <td>10-36</td>
+                                        <td>18/10/2022</td>
+                                        <td>30/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330647</td>
+                                        <td>VJEC330647_02CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 1-3,tuần 9-15,A3-401<br/>Thứ 5,tiết 1-3,tuần 9-15,A3-308<br/>Thứ 6,tiết 1-3,tuần 9-14,A3-308</div></td>
+                                        <td> Nguy&#234;̃n Thu Thủy</td>
+                                        <td>10-36</td>
+                                        <td>18/10/2022</td>
+                                        <td>01/12/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330647</td>
+                                        <td>VJEC330647_03CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 1-3,tuần 9-15,A3-302<br/>Thứ 5,tiết 7-9,tuần 9-15,A3-302<br/>Thứ 6,tiết 1-3,tuần 9-14,A3-302</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-36</td>
+                                        <td>18/10/2022</td>
+                                        <td>01/12/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC330647</td>
+                                        <td>VJEC330647_04CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A3.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 4-6,tuần 9-15,A3-302<br/>Thứ 5,tiết 10-12,tuần 9-15,A3-302<br/>Thứ 6,tiết 4-6,tuần 9-14,A3-302</div></td>
+                                        <td> Nguyễn Thị Thanh Th&#249;y</td>
+                                        <td>10-36</td>
+                                        <td>18/10/2022</td>
+                                        <td>01/12/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC430847</td>
+                                        <td>VJEC430847_01CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A4.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 3,tiết 1-4,tuần 1-15,A3-304</div></td>
+                                        <td> Nguyễn Thị H&#224;</td>
+                                        <td>10-36</td>
+                                        <td>23/08/2022</td>
+                                        <td>29/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>VJEC430847</td>
+                                        <td>VJEC430847_03CLC</td>
+                                        <td>Tiếng Nhật Sơ cấp A4.2 (2+1)</td>
+                                        <td>3.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 4,tiết 1-4,tuần 1-15,A3-402</div></td>
+                                        <td> Nguyễn Đo&#224;n Hương Thủy</td>
+                                        <td>10-36</td>
+                                        <td>24/08/2022</td>
+                                        <td>30/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_01</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_02</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_03</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_04</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_05</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_06</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>PROJ439545</td>
+                                        <td>PROJ439545_07</td>
+                                        <td>Tiểu luận tốt nghiệp (CNKT Đ-ĐT)</td>
+                                        <td>3.00</td>
+                                        <td>Thảo luận</td>
+                                        <td><div style="max-height:100px; overflow:auto"> </div></td>
+                                        <td> Trương Việt Anh</td>
+                                        <td>10-200</td>
+                                        <td></td>
+                                        <td></td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JPCU220147</td>
+                                        <td>JPCU220147_01CLC</td>
+                                        <td>Văn h&#243;a Nhật Bản</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 4-5,tuần 1-15,A2-402</div></td>
+                                        <td> Nguyễn Đo&#224;n Hương Thủy</td>
+                                        <td>10-53</td>
+                                        <td>22/08/2022</td>
+                                        <td>28/11/2022</td>
+                                        
+                                    </tr>
+                                    <tr class="trhover">
+                                        <td>JPCU220147</td>
+                                        <td>JPCU220147_02CLC</td>
+                                        <td>Văn h&#243;a Nhật Bản</td>
+                                        <td>2.00</td>
+                                        <td>L&#253; thuyết</td>
+                                        <td><div style="max-height:100px; overflow:auto"> Thứ 2,tiết 2-3,tuần 1-15,A2-203</div></td>
+                                        <td> Nguyễn Đo&#224;n Hương Thủy</td>
+                                        <td>10-45</td>
+                                        <td>22/08/2022</td>
+                                        <td>28/11/2022</td>
+                                        
+                                    </tr>
+
+                            </table>
+
+
+            </td>
+        </tr>
+    </table>
+</div>
+ 
+
+                            </div>
+                        </div>
+                        <!--End wrapper-->
+                    </div>
+                    <!--End panelcontent1-->
+                </div>
+                <!--End info_container-->
+            </div>
+            <!--end contaianer-->
+        </form>
+
+        <!--footer-->
+        <div class="panelbottom">
+            <div class="content_bottom">
+                <div class="trai">
+                    <img src="/Content/images/letf_bottom.jpg" />
+                </div>
+                <div class="thongtin">
+                    <span class="tentruong">TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP.HCM</span>
+                    <br />
+                    <span>S&#244;́ 1 Võ Văn Ng&#226;n , Qu&#226;̣n Thủ Đức, TP.HCM</span>
+                    <br />
+                    <span>Điện thoại: (84-8) 37221223</span>
+                </div>
+                <div class="phai">
+                    <img src="/Content/images/right_bottom.jpg" />
+                </div>
+            </div>
+            <div class="version">
+                <div class="info_ver"><a href="#">Bản quyền (C) 2022 TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP.HCM  - Phát triển bởi PSC UIS  </a></div>
+            </div>
+        </div>
+        <!--end footer-->
+    </div>
+    <!--End Page-->
+</body>
+</html>
